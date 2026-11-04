@@ -1,7 +1,8 @@
 # agile_kanban.py
 from dataclasses import dataclass
-from typing import List
-from datetime import datetime
+from typing import List, Dict
+from functions.system_design import Task, Status
+
 
 @dataclass
 class KanbanBoard:
