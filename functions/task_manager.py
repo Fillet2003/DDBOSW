@@ -1,7 +1,8 @@
 # task_manager.py
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import List, Dict, Optional
+from functions.system_design import Task, User, Priority 
 
 class TaskManager:
     """Класс для управления задачами"""

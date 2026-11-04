@@ -1,8 +1,10 @@
 # maintenance_monitoring.py
 import logging
 import time
-from datetime import datetime
-from typing import Dict, Any
+from datetime import datetime, timedelta
+from typing import Dict, Any, List
+from functions.system_design import Priority, Task
+from functions.task_manager import TaskManager
 
 class MonitoringSystem:
     """Система мониторинга для сопровождения ПО"""

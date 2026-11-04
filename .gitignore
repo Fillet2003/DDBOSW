@@ -1,0 +1,24 @@
+# --- Python & Virtual Environments ---
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.so
+build/
+dist/
+*.egg-info/
+
+# --- IDE & OS ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Testing & Caching ---
+.pytest_cache/
+.mypy_cache/
+
+# --- Secrets ---
+.env
+lecture.ipynb

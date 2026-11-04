@@ -1,6 +1,8 @@
 # test_task_system.py
 import unittest
 from datetime import datetime, timedelta
+from functions.task_manager import TaskManager
+from functions.system_design import Priority, Status
 
 class TestTaskSystem(unittest.TestCase):
     def setUp(self):
